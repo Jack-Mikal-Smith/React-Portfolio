@@ -1,0 +1,38 @@
+:root {
+    background-color: #6C757D !important;
+}
+
+.nav {
+    background-color: rgb(32, 204, 234) !important;
+}
+
+.nav a {
+    color: #6C757D;
+}
+
+.resume h2 {
+    color: #6C757D;
+    align-items: center !important;
+    padding-bottom: 1.5rem;
+}
+
+.resume h3 {
+    color: #6C757D;
+    padding-bottom: 0.75rem;
+}
+
+.resume h4 {
+    color: #6C757D;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+}
+
+.resume p {
+    color: #2f3031;
+    padding-left: 1.25rem;
+}
+
+.resume li {
+    color: #2f3031;
+    padding-left: 1.25rem;
+}

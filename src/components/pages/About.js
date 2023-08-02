@@ -2,15 +2,10 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
+    <div className='card border-info border-3 rounded m-3 p-3'>
+      <h1>About Me - Jack Smith:</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        I received my A.A. degree from Tallahassee Community College as well as two certificates in Small Business Management and Fincaial Analysis. I have also received two certificates from Seminole State College for Business Entrepreneurship and Financial Operations. Most recently, I completed UCF's Full-Stack Web Development Bootcamp. The bootcamp was focused on the MERN libraries and provided me with great insight into both front-end and back-end Web Development. You can view some of my complete sites in the Projects tab. My resume and contact information are provided as well.
       </p>
     </div>
   );

@@ -2,21 +2,11 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <div className='card border-info border-3 rounded m-3 p-3'>
+      <h1>Contact Me</h1>
+      <h4>Email: <a href='jack_smith21554@yahoo.com' className='link-info'>jack_smith21554@yahoo.com</a></h4>
+      <h4>LinkedIn: <a href='www.linkedin.com/in/jack-mikal-smith' className='link-info'>jack-mikal-smith</a></h4>
+      <h4>GitHub: <a href='https://github.com/Jack-Mikal-Smith' className='link-info'>Jack-Mikal-Smith</a></h4>
     </div>
   );
 }
