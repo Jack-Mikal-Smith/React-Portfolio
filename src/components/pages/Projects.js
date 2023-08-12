@@ -4,8 +4,12 @@ import ProjectCard from '../ProjectCard';
 export default function Projects() {
   return (
     <div>
-      <h1>Projects Page</h1>
-      <ProjectCard/>
+      <div className='card border-info border-rounded border-3 m-3 p-3'>
+        <h1>Projects Page</h1>
+      </div>
+      <div>
+        <ProjectCard/>
+      </div>
     </div>
   );
 }

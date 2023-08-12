@@ -1,5 +1,6 @@
 :root {
     background-color: #6C757D !important;
+    min-height: 1vh;
 }
 
 .nav {
