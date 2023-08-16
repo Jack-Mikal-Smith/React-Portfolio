@@ -5,10 +5,13 @@
 
 .nav {
     background-color: rgb(32, 204, 234) !important;
+    padding: .5rem;
+    border-radius: .25rem;
 }
 
 .nav a {
     color: #6C757D;
+    padding: .5rem;
 }
 
 .resume h2 {
@@ -36,4 +39,19 @@
 .resume li {
     color: #2f3031;
     padding-left: 1.25rem;
+}
+
+#raise:hover,
+#raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.nav a:hover {
+    color: antiquewhite;
+    border-radius: .25rem;
+}
+
+.nav a:active {
+    border-radius: .25rem;
 }
